@@ -1,0 +1,19 @@
+node
+{
+    stage ("clone")
+    {
+        echo "clone successful"
+    }
+     stage ("build")
+    {
+        echo "build successful"
+    }
+     stage ("test")
+    {
+        echo "test successful"
+    }
+     stage ("deploy")
+    {
+        echo "deploy successful"
+    }
+}
